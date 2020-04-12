@@ -54,7 +54,7 @@ ff02::3 ip6-allhosts
 # AdGuard tracking
 0.0.0.0 userscripts.adtidy.org
 0.0.0.0 filters.adtidy.org
-0.0.0.0 api.adguard.com
+# 0.0.0.0 api.adguard.com
 
 # Addinational tracking
 0.0.0.0 rutracker.appspot.com
