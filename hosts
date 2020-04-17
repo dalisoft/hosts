@@ -52,8 +52,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 client.relay.crisp.chat
 
 # AdGuard tracking
-0.0.0.0 userscripts.adtidy.org
-0.0.0.0 filters.adtidy.org
+# 0.0.0.0 userscripts.adtidy.org
+# 0.0.0.0 filters.adtidy.org
 # 0.0.0.0 api.adguard.com
 
 # Addinational tracking
@@ -79,6 +79,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scontent.fakx2-1.fna.fbcdn.net
 0.0.0.0 fbsbx.com
 0.0.0.0 fbcdn.com
+0.0.0.0 instagram.c10r.facebook.com
+0.0.0.0 edge-mqtt.facebook.com
+0.0.0.0 graph.instagram.com
 
 # Custom host records are listed here.
 0.0.0.0 safebrowsing.googleapis.com
@@ -130,6 +133,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 ninja.akamaized.net
 0.0.0.0 tracking.olx-st.com
 0.0.0.0 bz2.olx.uz
+0.0.0.0 statsgoogle.appsflyer.com
+0.0.0.0 stats.appsflyer.com
+0.0.0.0 app-measurement.com
+0.0.0.0 xray.imgsmail.ru
+0.0.0.0 api.smoot.apple.com
+0.0.0.0 s3-1-w.amazonaws.com
+0.0.0.0 c.trello.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 in.appcenter.ms
+0.0.0.0 weather-analytics-events.apple.com
+0.0.0.0 youtube-ui.l.google.com
+0.0.0.0 xp.apple.com
+0.0.0.0 tracker-api.my.com
+0.0.0.0 data.flurry.com
+0.0.0.0 securepubads.g.doubleclick.net
 
 # End of custom host records.
 # Start StevenBlack
@@ -25710,8 +25728,8 @@ ff02::3 ip6-allhosts
 # 0.0.0.0 metrics.ancestry.co.uk #[affects login]
 0.0.0.0 metric.angieslist.com
 0.0.0.0 metrics.apartmentfinder.com
-# 0.0.0.0 metrics.apple.com #[affects Apple site/MacOS]
-# 0.0.0.0 securemetrics.apple.com #[affects Apple site/MacOS]
+0.0.0.0 metrics.apple.com #[affects Apple site/MacOS]
+0.0.0.0 securemetrics.apple.com #[affects Apple site/MacOS]
 0.0.0.0 metrics.ariba.com
 0.0.0.0 omniture.artinstitutes.edu
 0.0.0.0 stats2.arstechnica.com
