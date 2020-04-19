@@ -138,7 +138,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 app-measurement.com
 0.0.0.0 xray.imgsmail.ru
 0.0.0.0 api.smoot.apple.com
-0.0.0.0 s3-1-w.amazonaws.com
+# 0.0.0.0 s3-1-w.amazonaws.com
 0.0.0.0 c.trello.com
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 in.appcenter.ms
