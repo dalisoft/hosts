@@ -143,7 +143,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 in.appcenter.ms
 0.0.0.0 weather-analytics-events.apple.com
-0.0.0.0 youtube-ui.l.google.com
+# 0.0.0.0 youtube-ui.l.google.com
 0.0.0.0 xp.apple.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 data.flurry.com
