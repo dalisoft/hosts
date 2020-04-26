@@ -92,8 +92,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 r1---sn-01oxu-u5ne.googlevideo.com
 0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 aaxads.comA
-0.0.0.0 play.google.com
+0.0.0.0 aaxads.com
+# 0.0.0.0 play.google.com
 0.0.0.0 malwarebytes.org
 0.0.0.0 content.invisioncic.com
 0.0.0.0 ogs.google.com
