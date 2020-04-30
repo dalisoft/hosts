@@ -83,7 +83,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 edge-mqtt.facebook.com
 0.0.0.0 graph.instagram.com
 
+# BlackList
+0.0.0.0 franecki.net
+0.0.0.0 falcon.r.acdnpro.com
+
 # Custom host records are listed here.
+0.0.0.0 miro-alternate.app.link
+0.0.0.0 miro.app.link # Link for MIRO with trackers (see ^ 1n)
+0.0.0.0 graph.instagram.com
+0.0.0.0 lookaside.facebook.com
+0.0.0.0 edge-mqtt.facebook.com
+0.0.0.0 instagram.c10r.facebook.com
+0.0.0.0 sentry.iddqd.yandex.net
+0.0.0.0 data.flurry.com
 0.0.0.0 connectivity-check.ubuntu.com
 0.0.0.0 app-measurement.com
 0.0.0.0 stats.appsflyer.com
