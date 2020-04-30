@@ -84,6 +84,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 graph.instagram.com
 
 # Custom host records are listed here.
+0.0.0.0 connectivity-check.ubuntu.com
+0.0.0.0 app-measurement.com
+0.0.0.0 stats.appsflyer.com
+0.0.0.0 xp.apple.com
+0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
 0.0.0.0 browser.sentry-cdn.com
 0.0.0.0 safebrowsing.googleapis.com
