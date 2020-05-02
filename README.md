@@ -2,6 +2,10 @@
 
 ## Hosts
 
+### Check Ad and Tracker blocking level
+
+See [here](https://checkadblock.ru)
+
 ### Copy your curreny hosts
 
 > Your current host-file should be without any of ad-blocking hosts
