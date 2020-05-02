@@ -128,6 +128,7 @@
 
 # Most populars
 0.0.0.0 counter.yadro.ru
+0.0.0.0 counter.yadro.com
 0.0.0.0 xray.imgsmail.ru
 0.0.0.0 vktarget.ru
 
@@ -176,6 +177,18 @@
 0.0.0.0 tracker-api.my.com
 
 #
+# Sublime Text
+# requests was sent
+# from Package Control
+# with data of my configs
+# and plugins, so disabled it
+#
+
+0.0.0.0 sublimehq.com
+0.0.0.0 pkg.sublimehq.com
+0.0.0.0 license.sublimehq.com
+
+#
 # Currently uncategorized
 #
 
@@ -187,3 +200,4 @@
 0.0.0.0 ultimedia.com
 0.0.0.0 in.appcenter.ms
 0.0.0.0 data.flurry.com
+0.0.0.0 adsvolume.com
