@@ -29,6 +29,7 @@
 #
 
 0.0.0.0 mc.yandex.ru
+0.0.0.0 sentry.iddqd.yandex.net
 0.0.0.0 yandex.com
 0.0.0.0 yandex.ru
 0.0.0.0 bing.com
@@ -56,6 +57,7 @@
 0.0.0.0 graph.instagram.com
 0.0.0.0 staticxx.facebook.com
 0.0.0.0 connect.facebook.net
+0.0.0.0 lookaside.facebook.com
 
 #
 # Google trackers, ads and analytics
@@ -151,6 +153,7 @@
 # Ad-analytics
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 stats.appsflyer.com
+0.0.0.0 browser.sentry-cdn.com
 
 #
 # TP-Link router calls
@@ -164,11 +167,15 @@
 # especially from iOS and macOS
 #
 
+0.0.0.0 connectivity-check.ubuntu.com
+0.0.0.0 app-measurement.com
+0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 malwarebytes.org
 0.0.0.0 ninja.akamaized.net
 0.0.0.0 e9.akamaiedge.net
 0.0.0.0 app-measurement.com
 0.0.0.0 ipaddress.com
+0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
 
 #
 # My.com trackers
@@ -187,6 +194,21 @@
 0.0.0.0 sublimehq.com
 0.0.0.0 pkg.sublimehq.com
 0.0.0.0 license.sublimehq.com
+
+#
+# Spam
+#
+
+0.0.0.0 franecki.net
+0.0.0.0 falcon.r.acdnpro.com
+
+#
+# URL shortener
+# but with trackers
+#
+
+0.0.0.0 miro-alternate.app.link
+0.0.0.0 miro.app.Link
 
 #
 # Currently uncategorized
