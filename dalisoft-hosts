@@ -324,7 +324,7 @@
 #
 
 0.0.0.0 improving.duckduckgo.com
-0.0.0.0 external-content.duckduckgo.com
+# 0.0.0.0 external-content.duckduckgo.com
 
 #
 # Vendors tracking
