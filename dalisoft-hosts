@@ -271,6 +271,29 @@
 0.0.0.0 dnl-08.geo.kaspersky.com
 0.0.0.0 dnl-10.geo.kaspersky.com
 
+0.0.0.0 ksn-pp.kaspersky-labs.com
+0.0.0.0 ksn-kddi.kaspersky-labs.com
+0.0.0.0 ksn-fr-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-wifiplus-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-verdict-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-url-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-tcert-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-kas-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-info-geo.kaspersky-labs.com
+0.0.0.0 ksn-cinfo-geo.kaspersky-labs.com
+
+0.0.0.0 ksn-kddi.kas-labs.com
+0.0.0.0 ksn-fr-geo.kas-labs.com
+0.0.0.0 ksn-crypto-wifiplus-geo.kas-labs.com
+0.0.0.0 ksn-crypto-verdict-geo.kas-labs.com
+0.0.0.0 ksn-crypto-url-geo.kas-labs.com
+0.0.0.0 ksn-crypto-stat-geo.kas-labs.com
+0.0.0.0 ksn-crypto-info-geo.kas-labs.com
+0.0.0.0 ksn-crypto-tcert-geo.kas-labs.com
+0.0.0.0 ksn-crypto-kas-geo.kas-labs.com
+0.0.0.0 ksn-crypto-info-geo.kas-labs.com
+0.0.0.0 ksn-cinfo-geo.kas-labs.com
+
 # Kaspersky calls to other services
 0.0.0.0 ip-info.ff.avast.com
 0.0.0.0 emupdate.avcdn.net
