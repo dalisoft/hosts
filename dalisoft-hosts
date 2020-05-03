@@ -98,6 +98,7 @@
 0.0.0.0 msftconnecttest.com
 0.0.0.0 www.msftconnecttest.com
 0.0.0.0 client.wns.windows.com
+0.0.0.0 dns.msftncsi.com
 
 #
 # Apple trackers and analytics
