@@ -91,6 +91,15 @@
 # 0.0.0.0 youtube-ui.l.google.com
 
 #
+# Microsoft
+# trackers and analytics
+#
+
+0.0.0.0 msftconnecttest.com
+0.0.0.0 www.msftconnecttest.com
+0.0.0.0 client.wns.windows.com
+
+#
 # Apple trackers and analytics
 #
 
@@ -169,13 +178,23 @@
 
 0.0.0.0 connectivity-check.ubuntu.com
 0.0.0.0 app-measurement.com
-0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 malwarebytes.org
 0.0.0.0 ninja.akamaized.net
 0.0.0.0 e9.akamaiedge.net
 0.0.0.0 app-measurement.com
 0.0.0.0 ipaddress.com
 0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
+
+#
+# Intercom.io
+# trackers and analytics
+#
+
+0.0.0.0 intercom.com
+0.0.0.0 www.intercom.com
+0.0.0.0 js.intercomcdn.com
+0.0.0.0 api-iam.intercom.io
+0.0.0.0 nexus-websocket-a.intercom.io
 
 #
 # My.com trackers
