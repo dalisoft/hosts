@@ -41,6 +41,10 @@ echo "\n\n" >> hosts
 cat hosts.tmp >> hosts
 rm -rf hosts.tmp
 
+# Microsoft Git Bash fix
+sed -e 's/\\n\\n/\n/g' ./hosts >> hosts-dos
+rm -rf hosts
+mv hosts-dos hosts
 
 echo 'Done!'
 echo "\n"
