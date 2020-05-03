@@ -102,6 +102,7 @@
 0.0.0.0 client.wns.windows.com
 0.0.0.0 dns.msftncsi.com
 0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 livetileedge.dsx.mp.microsoft.com
 
 #
 # Some unknown addresses
@@ -314,6 +315,7 @@
 0.0.0.0 adsvolume.com
 0.0.0.0 no-thanks.invalid
 0.0.0.0 wpad.home
+0.0.0.0 stat.joxi.ru
 
 #
 # Anti-trackers
@@ -323,3 +325,13 @@
 
 0.0.0.0 improving.duckduckgo.com
 0.0.0.0 external-content.duckduckgo.com
+
+#
+# Vendors tracking
+# Thanks for not installed
+# trackers on CPU/GPU
+# but who knows, maybe exists
+#
+
+0.0.0.0 gameplayapi.intel.com
+0.0.0.0 services.gfe.nvidia.com
