@@ -133,7 +133,6 @@
 #
 
 0.0.0.0 dsce9.akamaiedge.net
-0.0.0.0 ocsp.apple.com
 0.0.0.0 valid.apple.com
 0.0.0.0 metrics.icloud.com
 0.0.0.0 api.smoot.apple.com
@@ -324,7 +323,6 @@
 #
 
 0.0.0.0 improving.duckduckgo.com
-# 0.0.0.0 external-content.duckduckgo.com
 
 #
 # Vendors tracking
