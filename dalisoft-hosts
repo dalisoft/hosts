@@ -33,6 +33,7 @@
 0.0.0.0 yandex.com
 0.0.0.0 yandex.ru
 0.0.0.0 bing.com
+0.0.0.0 www.bing.com
 0.0.0.0 hostinger.ru
 0.0.0.0 www.hostinger.ru
 
@@ -99,6 +100,7 @@
 0.0.0.0 www.msftconnecttest.com
 0.0.0.0 client.wns.windows.com
 0.0.0.0 dns.msftncsi.com
+0.0.0.0 settings-win.data.microsoft.com
 
 #
 # Some unknown addresses
@@ -258,11 +260,16 @@
 
 #
 # Kaspersky trackers
+#
 
 0.0.0.0 touch.kaspersky.com
 0.0.0.0 dnl-02.geo.kaspersky.com
 0.0.0.0 dnl-08.geo.kaspersky.com
 0.0.0.0 dnl-10.geo.kaspersky.com
+
+# Kaspersky calls to other services
+0.0.0.0 ip-info.ff.avast.com
+0.0.0.0 emupdate.avcdn.net
 
 #
 # Currently uncategorized
