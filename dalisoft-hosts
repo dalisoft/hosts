@@ -223,3 +223,13 @@
 0.0.0.0 in.appcenter.ms
 0.0.0.0 data.flurry.com
 0.0.0.0 adsvolume.com
+0.0.0.0 no-thanks.invalid
+0.0.0.0 wpad.home
+
+#
+# Anti-trackers
+# itself trackers
+# list
+#
+
+0.0.0.0 improving.duckduckgo.com
