@@ -263,7 +263,11 @@
 #
 
 0.0.0.0 touch.kaspersky.com
+0.0.0.0 ipmcloud.kaspersky.com
+0.0.0.0 dnl-01.geo.kaspersky.com
 0.0.0.0 dnl-02.geo.kaspersky.com
+0.0.0.0 dnl-04.geo.kaspersky.com
+0.0.0.0 dnl-06.geo.kaspersky.com
 0.0.0.0 dnl-08.geo.kaspersky.com
 0.0.0.0 dnl-10.geo.kaspersky.com
 
