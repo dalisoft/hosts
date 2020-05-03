@@ -101,6 +101,23 @@
 0.0.0.0 dns.msftncsi.com
 
 #
+# Some unknown addresses
+# i sure it's Microsoft
+# trackers
+#
+
+0.0.0.0 sfsidchk.home
+0.0.0.0 orynujdmg.home
+0.0.0.0 rnivhncihwr.home
+0.0.0.0 nlujtcduduwy.home
+0.0.0.0 hgyesrqzuf.home
+0.0.0.0 mtcliyy.home
+0.0.0.0 yiuegterxjauts.home
+0.0.0.0 psmovpt.home
+0.0.0.0 fayiajfrw.home
+0.0.0.0 _ldap._tcp.dc._msdcs.workgroup.home
+
+#
 # GitHub
 # trackers and analytics
 #
@@ -177,6 +194,7 @@
 #
 
 0.0.0.0 tp-link.home
+0.0.0.0 www.tp-link.com
 
 #
 # Unwanted calls
@@ -203,6 +221,7 @@
 0.0.0.0 js.intercomcdn.com
 0.0.0.0 api-iam.intercom.io
 0.0.0.0 nexus-websocket-a.intercom.io
+0.0.0.0 widget.intercom.io
 
 #
 # My.com trackers
@@ -238,6 +257,14 @@
 0.0.0.0 miro.app.Link
 
 #
+# Kaspersky trackers
+
+0.0.0.0 touch.kaspersky.com
+0.0.0.0 dnl-02.geo.kaspersky.com
+0.0.0.0 dnl-08.geo.kaspersky.com
+0.0.0.0 dnl-10.geo.kaspersky.com
+
+#
 # Currently uncategorized
 #
 
@@ -260,3 +287,4 @@
 #
 
 0.0.0.0 improving.duckduckgo.com
+0.0.0.0 external-content.duckduckgo.com
