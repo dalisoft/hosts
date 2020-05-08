@@ -64,6 +64,7 @@
 #
 
 0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 www.googleapis.com
 0.0.0.0 adservice.google.co.uz
 0.0.0.0 adservice.google.com
 0.0.0.0 r1---sn-01oxu-u5ne.googlevideo.com
@@ -137,6 +138,8 @@
 0.0.0.0 api.smoot.apple.com
 0.0.0.0 weather-analytics-events.apple.com
 0.0.0.0 xp.apple.com
+0.0.0.0 gs-loc-new.ls-apple.com.akadns.net
+0.0.0.0 gs-loc.apple.com
 
 #
 # AmazonAWS trackers
