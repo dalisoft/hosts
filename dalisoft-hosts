@@ -28,7 +28,6 @@
 # Disable known services
 #
 
-0.0.0.0 mc.yandex.ru
 0.0.0.0 sentry.iddqd.yandex.net
 0.0.0.0 yandex.com
 0.0.0.0 yandex.ru
@@ -210,7 +209,6 @@
 0.0.0.0 malwarebytes.org
 0.0.0.0 ninja.akamaized.net
 0.0.0.0 e9.akamaiedge.net
-0.0.0.0 app-measurement.com
 0.0.0.0 ipaddress.com
 0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
 
