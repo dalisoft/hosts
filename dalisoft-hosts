@@ -78,9 +78,6 @@
 0.0.0.0 s.youtube.com
 0.0.0.0 suggestqueries.google.com
 0.0.0.0 device-provisioning.googleapis.com
-0.0.0.0 redirector.googlevideo.com
-0.0.0.0 youtubei.googleapis.com # Not sure, it needs?
-0.0.0.0 wide-youtube.l.google.com # It's blocks Wide-layout which i don't like
 0.0.0.0 www-googletagmanager.l.google.com
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 clients.l.google.com
@@ -89,6 +86,7 @@
 0.0.0.0 manifest.googlevideo.com
 0.0.0.0 statsgoogle.appsflyer.com
 0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 firebaselogging-pa.googleapis.com
 
 # Google service trackers, but
 # disabling these host may affect
@@ -155,6 +153,7 @@
 0.0.0.0 play.itunes.apple.com
 0.0.0.0 help.apple.com
 0.0.0.0 captive.apple.com
+0.0.0.0 ls.apple.com
 
 #
 # AmazonAWS trackers
@@ -177,6 +176,8 @@
 0.0.0.0 cnt0.www.uz
 0.0.0.0 tracking.olx-st.com
 0.0.0.0 bz2.olx.uz
+0.0.0.0 ninja.data.olxcdn.com
+0.0.0.0 laquesis.data.olxcdn.com
 
 #
 # RuNetwork trackers
