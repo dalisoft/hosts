@@ -337,6 +337,9 @@
 0.0.0.0 router.bittorrent.com
 0.0.0.0 s.w.org
 0.0.0.0 sw-update.obdev.at
+0.0.0.0 version.cyberduck.io
+0.0.0.0 peterborgapps.com
+0.0.0.0 www.peterborgapps.com
 
 #
 # Anti-trackers
