@@ -144,6 +144,17 @@
 0.0.0.0 xp.apple.com
 0.0.0.0 gs-loc-new.ls-apple.com.akadns.net
 0.0.0.0 gs-loc.apple.com
+0.0.0.0 gspe35-ssl.ls.apple.com
+0.0.0.0 gspe21-ssl.ls.apple.com
+0.0.0.0 gspe1-ssl.ls.apple.com
+0.0.0.0 configuration.ls.apple.com
+0.0.0.0 ls.apple.com
+0.0.0.0 apple-finance.query.yahoo.com
+0.0.0.0 init.itunes.apple.com
+0.0.0.0 p14-buy.itunes.apple.com
+0.0.0.0 play.itunes.apple.com
+0.0.0.0 help.apple.com
+0.0.0.0 captive.apple.com
 
 #
 # AmazonAWS trackers
@@ -320,10 +331,12 @@
 0.0.0.0 no-thanks.invalid
 0.0.0.0 wpad.home
 0.0.0.0 stat.joxi.ru
+0.0.0.0 update.joxi.ru
 0.0.0.0 router.bitcomet.com
 0.0.0.0 router.utorrent.com
 0.0.0.0 router.bittorrent.com
 0.0.0.0 s.w.org
+0.0.0.0 sw-update.obdev.at
 
 #
 # Anti-trackers
