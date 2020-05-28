@@ -168,6 +168,9 @@
 0.0.0.0 miro-alternate.app.link
 0.0.0.0 miro.app.Link
 
+# [mmstat.com]
+0.0.0.0 ru.mmstat.com
+
 # [addinational trackers]
 0.0.0.0 rutracker.appspot.com
 0.0.0.0 cdn.advg.agency
