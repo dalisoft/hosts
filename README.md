@@ -1,32 +1,28 @@
-# Etc files
+# Hosts file
 
-## Hosts
+## Check
 
-### Check Ad and Tracker blocking level
+Check at [here](https://checkadblock.ru)
 
-See [here](https://checkadblock.ru)
-
-### Copy your curreny hosts
+## Copy your curreny hosts
 
 > Your current host-file should be without any of ad-blocking hosts
 > see `hosts.orig` example attached in repo
 
-- `sudo cp /etc/hosts hosts.orig`
+- `cp /etc/hosts hosts.orig`
 
-### Build hosts
+## Build hosts
 
 `sh build.sh`
 
-### Reload hosts
+## Reload hosts
 
-Try first variant, if it's doesn't work, try other
+### macOS
 
-> works only for macOS
+`sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
 
-- `sudo dscacheutil -flushcache`
-- `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
 
-### Link
+## Link to system
 
 > There hard-linked because of most of time soft-link does not work
 
