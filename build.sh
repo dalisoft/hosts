@@ -29,6 +29,10 @@ curl https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt 
 sed -e 's/127.0.0.1/0.0.0.0/g' ./ad_away_hosts.txt >> hosts-tmp
 rm -rf ad_away_hosts.txt
 
+# Add AdAway hosts to hosts-tmp
+echo 'Adding `AdGuard`s hosts to hosts-tmp...'
+curl https://raw.githubusercontent.com/r-a-y/mobile-hosts/master/AdguardDNS.txt >> hosts-tmp
+
 # Removing duplicates
 echo 'Removing duplicates...'
 uniq hosts-tmp > hosts.tmp
