@@ -8,7 +8,6 @@
 0.0.0.0 browser.sentry-cdn.com
 
 # [Facebook]
-0.0.0.0 pixel.facebook.com
 0.0.0.0 edge-chat.facebook.com
 0.0.0.0 instagram.c10r.facebook.com
 0.0.0.0 edge-mqtt.facebook.com
@@ -24,13 +23,10 @@
 # [Google]
 0.0.0.0 adservice.google.co.uz
 0.0.0.0 adservice.google.com
-0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 ogs.google.com
 0.0.0.0 csi.gstatic.com
 0.0.0.0 clients1.google.com
 0.0.0.0 analytics-google.com
-0.0.0.0 googleadservices.com
 0.0.0.0 suggestqueries.google.com
 0.0.0.0 device-provisioning.googleapis.com
 0.0.0.0 www-googletagmanager.l.google.com
@@ -148,9 +144,6 @@
 0.0.0.0 api-iam.intercom.io
 0.0.0.0 nexus-websocket-a.intercom.io
 0.0.0.0 widget.intercom.io
-
-# [My(.com)]
-0.0.0.0 tracker-api.my.com
 
 # [DuckDuckGo]
 0.0.0.0 improving.duckduckgo.com
