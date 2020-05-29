@@ -175,6 +175,10 @@
 # [NVidia]
 0.0.0.0 services.gfe.nvidia.com
 
+# [SnigelWeb]
+0.0.0.0 geo-eu.snigelweb.com
+0.0.0.0 cdn.snigelweb.com
+
 # uncategorized
 0.0.0.0 pocketbitsllc.com
 0.0.0.0 content.invisioncic.com
