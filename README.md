@@ -4,7 +4,7 @@
 
 Check at [here](https://checkadblock.ru)
 
-## Copy your curreny hosts
+## Copy your current hosts
 
 > Your current host-file should be without any of ad-blocking hosts
 > see `hosts.orig` example attached in repo

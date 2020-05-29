@@ -19,15 +19,12 @@
 0.0.0.0 instagram.c10r.facebook.com
 0.0.0.0 edge-mqtt.facebook.com
 0.0.0.0 graph.instagram.com
-0.0.0.0 staticxx.facebook.com
-0.0.0.0 connect.facebook.net
 0.0.0.0 lookaside.facebook.com
+0.0.0.0 cx.atdmt.com
 
 # [google.com]
-0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 adservice.google.co.uz
 0.0.0.0 adservice.google.com
-0.0.0.0 r1---sn-01oxu-u5ne.googlevideo.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 ogs.google.com
@@ -35,7 +32,6 @@
 0.0.0.0 clients1.google.com
 0.0.0.0 analytics-google.com
 0.0.0.0 googleadservices.com
-0.0.0.0 s.youtube.com
 0.0.0.0 suggestqueries.google.com
 0.0.0.0 device-provisioning.googleapis.com
 0.0.0.0 www-googletagmanager.l.google.com
@@ -46,8 +42,10 @@
 0.0.0.0 firebaselogging-pa.googleapis.com
 
 # [youtube.com]
+0.0.0.0 s.youtube.com
 0.0.0.0 s.ytimg.com
 0.0.0.0 youtube-nocookie.com
+0.0.0.0 r1---sn-01oxu-u5ne.googlevideo.com
 
 # [microsoft.com]
 0.0.0.0 msftconnecttest.com
@@ -114,9 +112,6 @@
 0.0.0.0 betsponsport.ru
 0.0.0.0 userator.ru
 0.0.0.0 biglion.ru
-
-# [adtidy.org]
-0.0.0.0 adtidy.org
 
 # [aaxads.com]
 0.0.0.0 aaxads.com
