@@ -1,3 +1,6 @@
+# [Adobe]
+0.0.0.0 redhat.tt.omtrdc.net
+
 # [CrispChat]
 0.0.0.0 client.crisp.chat
 0.0.0.0 client.relay.crisp.chat
@@ -155,6 +158,7 @@
 # [Sublime Text v3]
 # reason: unexcepted log sending
 0.0.0.0 sublimehq.com
+0.0.0.0 wwww.sublimehq.com
 0.0.0.0 pkg.sublimehq.com
 
 # [Spam]
