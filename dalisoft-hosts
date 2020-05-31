@@ -134,7 +134,7 @@
 0.0.0.0 connectivity-check.ubuntu.com
 
 # [AppMeasurement]
-0.0.0.0 app-measurement.com
+0.0.0.0 www.app-measurement.com
 
 # [Akamaized]
 0.0.0.0 ninja.akamaized.net
