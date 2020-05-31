@@ -36,10 +36,15 @@
 0.0.0.0 firebaselogging-pa.googleapis.com
 
 # [YouTube]
-0.0.0.0 s.youtube.com
 0.0.0.0 s.ytimg.com
 0.0.0.0 youtube-nocookie.com
-0.0.0.0 r1---sn-01oxu-u5ne.googlevideo.com
+
+# This entry slow downs video-loading
+# 0.0.0.0 r1---sn-01oxu-u5ne.googlevideo.com
+
+# This entry disables YouTube history
+# 0.0.0.0 s.youtube.com
+
 
 # [Microsoft]
 0.0.0.0 msftconnecttest.com
