@@ -74,14 +74,11 @@
 0.0.0.0 collector.githubapp.com
 
 # [Apple]
-0.0.0.0 dsce9.akamaiedge.net
 0.0.0.0 valid.apple.com
 0.0.0.0 metrics.icloud.com
 0.0.0.0 api.smoot.apple.com
 0.0.0.0 weather-analytics-events.apple.com
 0.0.0.0 xp.apple.com
-0.0.0.0 gs-loc-new.ls-apple.com.akadns.net
-0.0.0.0 gs-loc.apple.com
 0.0.0.0 apple-finance.query.yahoo.com
 0.0.0.0 play.itunes.apple.com
 0.0.0.0 captive.apple.com
