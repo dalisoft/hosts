@@ -7,8 +7,11 @@
 0.0.0.0 settings.crisp.chat
 
 # [Sentry]
-0.0.0.0 sentry.iddqd.yandex.net
 0.0.0.0 browser.sentry-cdn.com
+
+# [Yandex]
+0.0.0.0 aflt.market.yandex.ru
+0.0.0.0 0.0.0.0 sentry.iddqd.yandex.net
 
 # [Facebook]
 0.0.0.0 edge-chat.facebook.com
