@@ -201,6 +201,14 @@
 0.0.0.0 crrepo.com
 0.0.0.0 wwww.crrepo.com
 
+# [OmniTagJS]
+0.0.0.0 hb-api.omnitagjs.com
+
+# [SwitchAdHub]
+0.0.0.0 cdn.switchadhub.com
+0.0.0.0 delivery.g.switchadhub.com
+0.0.0.0 delivery.swid.switchadhub.com
+
 # uncategorized
 0.0.0.0 pocketbitsllc.com
 0.0.0.0 content.invisioncic.com
