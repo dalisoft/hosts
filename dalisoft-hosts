@@ -213,7 +213,7 @@
 0.0.0.0 router.bitcomet.com
 0.0.0.0 router.utorrent.com
 0.0.0.0 router.bittorrent.com
-0.0.0.0 s.w.org
+# 0.0.0.0 s.w.org # This host enables some icon share
 0.0.0.0 sw-update.obdev.at
 0.0.0.0 version.cyberduck.io
 0.0.0.0 peterborgapps.com
