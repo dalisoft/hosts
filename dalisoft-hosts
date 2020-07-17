@@ -116,9 +116,6 @@
 0.0.0.0 stats.appsflyer.com
 0.0.0.0 statsgoogle.appsflyer.com
 
-# [TP-Link]
-0.0.0.0 www.tp-link.com
-
 # [Ubuntu]
 0.0.0.0 connectivity-check.ubuntu.com
 
