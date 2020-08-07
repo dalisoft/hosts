@@ -31,7 +31,6 @@
 0.0.0.0 adservice.google.com
 0.0.0.0 ogs.google.com
 0.0.0.0 csi.gstatic.com
-0.0.0.0 clients1.google.com
 0.0.0.0 analytics-google.com
 0.0.0.0 device-provisioning.googleapis.com
 0.0.0.0 www-googletagmanager.l.google.com
