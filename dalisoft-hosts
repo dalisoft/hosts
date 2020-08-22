@@ -125,8 +125,6 @@
 
 # [Akamaized]
 0.0.0.0 ninja.akamaized.net
-0.0.0.0 e9.akamaiedge.net
-0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
 
 # [IP Address]
 0.0.0.0 ipaddress.com
@@ -197,7 +195,6 @@
 0.0.0.0 cdn.trafficbass.com
 0.0.0.0 z.cdn.trafficbass.com
 0.0.0.0 pocketbitsllc.com
-0.0.0.0 content.invisioncic.com
 0.0.0.0 hopigrarn.com
 0.0.0.0 cowner.net
 0.0.0.0 fukavertal.pro
