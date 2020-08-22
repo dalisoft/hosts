@@ -46,8 +46,11 @@
 # 0.0.0.0 suggestqueries.google.com
 
 # [YouTube]
-0.0.0.0 s.ytimg.com
-0.0.0.0 youtube-nocookie.com
+# Allow YouTube Studio assets
+# 0.0.0.0 s.ytimg.com
+
+# As this site doesn't uses cookie, we can allow
+# 0.0.0.0 youtube-nocookie.com
 
 # This entry slow downs video-loading
 # 0.0.0.0 r1---sn-01oxu-u5ne.googlevideo.com
