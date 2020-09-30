@@ -193,6 +193,11 @@
 0.0.0.0 delivery.g.switchadhub.com
 0.0.0.0 delivery.swid.switchadhub.com
 
+# [Lalucherut]
+0.0.0.0 lalucherut.com
+0.0.0.0 s.lalucherut.com
+0.0.0.0 news-fancy.com
+
 # uncategorized
 0.0.0.0 cdn.trafficbass.com
 0.0.0.0 z.cdn.trafficbass.com
