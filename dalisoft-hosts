@@ -11,7 +11,11 @@
 
 # [Yandex]
 0.0.0.0 aflt.market.yandex.ru
-0.0.0.0 0.0.0.0 sentry.iddqd.yandex.net
+0.0.0.0 aflt.yandex.ru
+0.0.0.0 sentry.iddqd.yandex.net
+0.0.0.0 adfox.yandex.ru
+0.0.0.0 ads.adfox.ru
+0.0.0.0 an.yandex.ru
 
 # [Facebook]
 0.0.0.0 edge-chat.facebook.com
@@ -31,15 +35,17 @@
 0.0.0.0 adservice.google.com
 0.0.0.0 ogs.google.com
 0.0.0.0 csi.gstatic.com
-0.0.0.0 clients1.google.com
 0.0.0.0 analytics-google.com
 0.0.0.0 device-provisioning.googleapis.com
 0.0.0.0 www-googletagmanager.l.google.com
 0.0.0.0 www.googletagmanager.com
-0.0.0.0 clients.l.google.com
 0.0.0.0 manifest.googlevideo.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 firebaselogging-pa.googleapis.com
+# This blocks Google Sheets sync
+# 0.0.0.0 clients.l.google.com
+# This may break Auth or Chrome Extensions downloading
+# 0.0.0.0 clients1.google.com
 
 # Essential feature
 # but tracks activity
@@ -62,16 +68,16 @@
 # [Microsoft]
 0.0.0.0 msftconnecttest.com
 0.0.0.0 www.msftconnecttest.com
-0.0.0.0 client.wns.windows.com
 0.0.0.0 dns.msftncsi.com
 0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com
+# This blocks Windows activation
+# 0.0.0.0 client.wns.windows.com
 
 # [GitHub]
 0.0.0.0 collector.githubapp.com
 
 # [Apple]
-0.0.0.0 valid.apple.com
 0.0.0.0 metrics.icloud.com
 0.0.0.0 api.smoot.apple.com
 0.0.0.0 weather-analytics-events.apple.com
@@ -79,6 +85,8 @@
 0.0.0.0 apple-finance.query.yahoo.com
 0.0.0.0 captive.apple.com
 0.0.0.0 supportmetrics.apple.com
+# This blocks iCloud validity check
+# 0.0.0.0 valid.apple.com
 
 # [Trello]
 0.0.0.0 c.trello.com
@@ -142,19 +150,9 @@
 # [DuckDuckGo]
 0.0.0.0 improving.duckduckgo.com
 
-# [Sublime Text v3]
-# reason: unexcepted log sending
-0.0.0.0 sublimehq.com
-0.0.0.0 wwww.sublimehq.com
-0.0.0.0 pkg.sublimehq.com
-
 # [Spam]
 0.0.0.0 franecki.net
 0.0.0.0 falcon.r.acdnpro.com
-
-# [Miro - App Link]
-0.0.0.0 miro-alternate.app.link
-0.0.0.0 miro.app.Link
 
 # [MMStat]
 0.0.0.0 ru.mmstat.com
@@ -220,42 +218,3 @@
 0.0.0.0 version.cyberduck.io
 0.0.0.0 peterborgapps.com
 0.0.0.0 www.peterborgapps.com
-
-# [kaspersky.com]
-0.0.0.0 touch.kaspersky.com
-0.0.0.0 ipmcloud.kaspersky.com
-0.0.0.0 dnl-01.geo.kaspersky.com
-0.0.0.0 dnl-02.geo.kaspersky.com
-0.0.0.0 dnl-04.geo.kaspersky.com
-0.0.0.0 dnl-06.geo.kaspersky.com
-0.0.0.0 dnl-08.geo.kaspersky.com
-0.0.0.0 dnl-10.geo.kaspersky.com
-
-# [kaspersky-labs.com]
-0.0.0.0 ksn-pp.kaspersky-labs.com
-0.0.0.0 ksn-kddi.kaspersky-labs.com
-0.0.0.0 ksn-fr-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-wifiplus-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-verdict-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-url-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-tcert-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-kas-geo.kaspersky-labs.com
-0.0.0.0 ksn-crypto-info-geo.kaspersky-labs.com
-0.0.0.0 ksn-cinfo-geo.kaspersky-labs.com
-
-# [kas-labs.com]
-0.0.0.0 ksn-kddi.kas-labs.com
-0.0.0.0 ksn-fr-geo.kas-labs.com
-0.0.0.0 ksn-crypto-wifiplus-geo.kas-labs.com
-0.0.0.0 ksn-crypto-verdict-geo.kas-labs.com
-0.0.0.0 ksn-crypto-url-geo.kas-labs.com
-0.0.0.0 ksn-crypto-stat-geo.kas-labs.com
-0.0.0.0 ksn-crypto-info-geo.kas-labs.com
-0.0.0.0 ksn-crypto-tcert-geo.kas-labs.com
-0.0.0.0 ksn-crypto-kas-geo.kas-labs.com
-0.0.0.0 ksn-crypto-info-geo.kas-labs.com
-0.0.0.0 ksn-cinfo-geo.kas-labs.com
-
-# kaspersky calls
-0.0.0.0 ip-info.ff.avast.com
-0.0.0.0 emupdate.avcdn.net
