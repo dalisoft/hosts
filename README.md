@@ -15,14 +15,12 @@ Check at [here](https://checkadblock.ru)
 
 `python build.py`
 
+## Link to system
+
+`sudo python link.py && sudo chmod 0644 /etc/hosts`
+
 ## Reload hosts
 
 ### macOS
 
 `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
-
-## Link to system
-
-> There hard-linked because of most of time soft-link does not work
-
-`sudo ln -f hosts /etc/hosts`
