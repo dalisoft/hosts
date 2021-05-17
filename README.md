@@ -7,20 +7,19 @@ Check at [here](https://checkadblock.ru)
 ## Copy your current hosts
 
 > Your current host-file should be without any of ad-blocking hosts
-> see `hosts.orig` example attached in repo
+> see `defaults.txt` example attached in repo
 
-- `cp /etc/hosts hosts.orig`
+- `cp /etc/hosts defaults.txt`
 
 ## Build hosts
 
-`sh build.sh`
+`python build.py`
 
 ## Reload hosts
 
 ### macOS
 
 `sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder`
-
 
 ## Link to system
 

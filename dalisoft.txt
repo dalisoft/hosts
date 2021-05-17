@@ -33,6 +33,8 @@
 # [Google]
 0.0.0.0 adservice.google.co.uz
 0.0.0.0 adservice.google.com
+0.0.0.0 googleads.g.double.net
+0.0.0.0 static.doubleclick.net
 0.0.0.0 ogs.google.com
 0.0.0.0 csi.gstatic.com
 0.0.0.0 analytics-google.com
@@ -76,6 +78,7 @@
 
 # [GitHub]
 0.0.0.0 collector.githubapp.com
+0.0.0.0 alive.github.com
 
 # [Apple]
 0.0.0.0 metrics.icloud.com
@@ -131,6 +134,7 @@
 0.0.0.0 connectivity-check.ubuntu.com
 
 # [AppMeasurement]
+0.0.0.0 app-measurement.com
 0.0.0.0 www.app-measurement.com
 
 # [Akamaized]
@@ -196,7 +200,7 @@
 0.0.0.0 s.lalucherut.com
 0.0.0.0 news-fancy.com
 
-# uncategorized
+# Uncategorized
 0.0.0.0 cdn.trafficbass.com
 0.0.0.0 z.cdn.trafficbass.com
 0.0.0.0 pocketbitsllc.com

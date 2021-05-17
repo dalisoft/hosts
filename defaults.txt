@@ -13,8 +13,6 @@
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 127.0.0.1 local
-127.0.1.1 pop-os.localdomain pop-os
-127.0.1.1 ubuntu.localdomain ubuntu
 255.255.255.255 broadcasthost
 ::1 localhost
 ::1 ip6-localhost
@@ -25,4 +23,3 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
