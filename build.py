@@ -15,15 +15,12 @@ def bytes2utf (bytelist: list[bytes]) -> list[str]:
 
 defaults = open('defaults.txt', 'r')
 defaults_lines = defaults.readlines()
-defaults.close()
 
 whitelist = open('whitelist.txt', 'r')
 whitelist_lines = whitelist.readlines()
-whitelist.close()
 
 custom_host = open('dalisoft.txt', 'r')
 custom_host_lines = custom_host.readlines()
-custom_host.close()
 
 # Utils
 def request(url: str, path: str) -> list[str]:
@@ -37,19 +34,19 @@ def request(url: str, path: str) -> list[str]:
 	return res
 
 # Checks
-def checkWhitelist (line: str) -> bool:
-	for whitelist_line in whitelist_lines:
-		if line in whitelist_line:
-			return True
-
-	return False
-
 def checkComments (line: str) -> bool:
-	if '#' in line:
+	if '#' in line or line.__len__() < 2:
 		return True
 
 	return False
 
+def checkWhitelist (line: str) -> bool:
+	for whitelist_line in whitelist_lines:
+			whitelist_line: str = whitelist_line.replace('*.', '') if '*' in whitelist_line else ' {}'.format(whitelist_line)
+			if checkComments(whitelist_line) is False and whitelist_line in line:
+				return True
+
+	return False
 
 # All list
 output_list: list[str] = []
@@ -89,6 +86,11 @@ print('Building blocks...')
 hosts_file = open('hosts', 'w')
 hosts_file.writelines(defaults_lines)
 hosts_file.writelines(output_list)
+
+# Close files
 hosts_file.close()
+defaults.close()
+whitelist.close()
+custom_host.close()
 
 print('Done...')
