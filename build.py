@@ -38,8 +38,9 @@ def request(url: str, path: str) -> list[str]:
 
 # Checks
 def checkWhitelist (line: str) -> bool:
-	if line in whitelist_lines:
-		return True
+	for whitelist_line in whitelist_lines:
+		if line in whitelist_line:
+			return True
 
 	return False
 
@@ -67,6 +68,7 @@ for host, path in (HOSTS_EXTERNAL_URL):
 
 	for line in host_list:
 		if checkWhitelist(line) is False and checkComments(line) is False:
+			line = line.replace('127.0.0.1', '0.0.0.0')
 			output_list.append(line)
 
 	print('Generating hosts... {}%'.format(int((index / len) * 100 )))
@@ -76,6 +78,7 @@ for host, path in (HOSTS_EXTERNAL_URL):
 ip_list = request('block.energized.pro', '/extensions/ips/formats/list.txt')
 for line in ip_list:
 	if checkWhitelist(line) is False and checkComments(line) is False:
+		line = line.replace('127.0.0.1', '0.0.0.0')
 		output_list.append('0.0.0.0 {}'.format(line))
 
 print('Generating hosts... 100%')
