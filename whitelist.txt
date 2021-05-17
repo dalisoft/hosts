@@ -7,7 +7,7 @@ go.microsoft.com
 # Google
 analystics.google.com
 chart.apis.google.com
-0.0.0.0 s.youtube.com
+s.youtube.com
 
 # Apple
 appleid.cdn-apple.com
@@ -38,7 +38,7 @@ u3638036.ct.sendgrid.net
 hub.jetbrains.com
 
 # OneSignal
-*.onesignal.com
+# onesignal.com
 
 # Browser polyfills
 cdn.polyfill.io
