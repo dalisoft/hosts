@@ -30,12 +30,13 @@ dalisoft's Hosts file with external sources which build final **hosts** file con
 
 ### Your current host-file should be without any of ad-blocking hosts
 
-| Name  | Command                                                               | OS          | Requires _sudo_? | Description                                        |
-| ----- | --------------------------------------------------------------------- | ----------- | ---------------- | -------------------------------------------------- |
-| Copy  | `cp /etc/hosts defaults.txt`                                          | macOS/Linux | No               | Copies your original hosts to current folder       |
-| Build | `python build.py`                                                     | All desktop | No               | Generates `hosts` from all available sources       |
-| Link  | `sh link.sh`                                                          | macOS/Linux | Yes              | Links `hosts` to system                            |
-| Flush | `sudo dscacheutil -flushcache;`<br/>`sudo killall -HUP mDNSResponder` | macOS       | Yes              | Clears DNS cache, flushs and reloads DNS responder |
+| Name   | Command                                                               | OS          | Requires _sudo_? | Description                                        |
+| ------ | --------------------------------------------------------------------- | ----------- | ---------------- | -------------------------------------------------- |
+| Copy   | `cp /etc/hosts defaults.txt`                                          | macOS/Linux | No               | Copies your original hosts to current folder       |
+| Build  | `python build.py`                                                     | All desktop | No               | Generates `hosts` from all available sources       |
+| Link   | `sh link.sh`                                                          | macOS/Linux | Yes              | Links `hosts` to system                            |
+| Revert | `sh revert.sh`                                                        | macOS/Linux | Yes              | Reverts `hosts` to system from `defaults.txt`      |
+| Flush  | `sudo dscacheutil -flushcache;`<br/>`sudo killall -HUP mDNSResponder` | macOS       | Yes              | Clears DNS cache, flushs and reloads DNS responder |
 
 ## License
 
