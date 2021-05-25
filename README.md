@@ -18,7 +18,7 @@ dalisoft's Hosts file with external sources which build final **hosts** file con
 ## Included lists
 
 - [dalisoft's micro-host](./dalisoft.txt)
-- [default hosts](./hosts.txt)
+- [default hosts](./defaults.txt)
 - [GoodbyeAds](https://github.com/jerryn70/GoodbyeAds)
 - [StevenBlack's Hosts](https://github.com/StevenBlack/hosts)
 - [AdAway's Hosts](https://github.com/AdAway/AdAway)
