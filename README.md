@@ -6,6 +6,10 @@ dalisoft's Hosts file with external sources which build final **hosts** file con
 
 <p align='center'><a href='https://checkadblock.ru'>Check DNS ad-block</a></p>
 
+## Caveats
+
+Using this on macOS device may slow-down internet access, so i recommend using **NextDNS** [[Referral](https://nextdns.io/?from=9g576dsx)] link
+
 ## Features
 
 - Most optimized and balanced
