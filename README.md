@@ -1,46 +1,45 @@
 # hosts
 
-<p align='center'><b>The most largest anti-tracking, ad-blocking and security host database you can find around the world</b></p>
-
-dalisoft's Hosts file with external sources which build final **hosts** file containing _almost_ **1 594 000** _unique entries_ and _almost_ **47 MiB** file-size
+<p align='center'><b>author-maintained balanced between privacy, safety and services functionality</b></p>
 
 <p align='center'><a href='https://checkadblock.ru'>Check DNS ad-block</a></p>
 
-## Caveats
+## Requires lists
 
-Using this on macOS device may slow-down internet access, so i recommend using **NextDNS** [[Referral](https://nextdns.io/?from=9g576dsx)] link
+This list requires these lists for best privacy and safety.
 
-## Features
+AdGuard DNS already have these list, for NextDNS you can replace few of them by **Enegrized Ultimate** + **1Hosts (Pro)**
 
-- Most optimized and balanced
-- **Privacy** sits locally
-- Automatized
-- Local generation, you own lists
-- Crazy-tested database
-- **Wildcard** white-list support
+- AdAway Default Blocklist
+- Peter Lowe's Blocklist
+- 1Hosts (Lite)
+- Dan Pollock's List
+- Energized Spark
+- The NoTracking blocklist (one of best list)
+- OISD Blocklist Full (one of best list knew after using AdGuard DNS)
+- Steven Black's List
+- Phishing URL Blocklist (one of best and well maintained)
+- Dandelion Sprout's Anti-Malware
+- NoCoin Filter List (one of best)
+- Scam Blocklist
+- Salkerware Indicators List
+- The Big List of Hacked Malware
+- Malicious URL Blocklist (the one i'm recommend for safety)
+- Dandelion Sprout's Game Console (if you have PS/Xbox)
+- Perflyst and Dandelion Sprout
 
-## Included lists
+## Services
 
-- [dalisoft's micro-host](./dalisoft.txt)
-- [default hosts](./defaults.txt)
-- [GoodbyeAds](https://github.com/jerryn70/GoodbyeAds)
-- [StevenBlack's Hosts](https://github.com/StevenBlack/hosts)
-- [AdAway's Hosts](https://github.com/AdAway/AdAway)
-- [Mobile Hosts](https://github.com/r-a-y/mobile-hosts)
-- [1Hosts **Pro**](https://github.com/badmojr/1Hosts)
-- [Energized **Unified**](https://github.com/EnergizedProtection/block)
-
-## Commands
-
-### Your current host-file should be without any of ad-blocking hosts
-
-| Name   | Command                                                               | OS          | Requires _sudo_? | Description                                        |
-| ------ | --------------------------------------------------------------------- | ----------- | ---------------- | -------------------------------------------------- |
-| Copy   | `cp /etc/hosts defaults.txt`                                          | macOS/Linux | No               | Copies your original hosts to current folder       |
-| Build  | `python build.py`                                                     | All desktop | No               | Generates `hosts` from all available sources       |
-| Link   | `sh link.sh`                                                          | macOS/Linux | Yes              | Links `hosts` to system                            |
-| Revert | `sh revert.sh`                                                        | macOS/Linux | Yes              | Reverts `hosts` to system from `defaults.txt`      |
-| Flush  | `sudo dscacheutil -flushcache;`<br/>`sudo killall -HUP mDNSResponder` | macOS       | Yes              | Clears DNS cache, flushs and reloads DNS responder |
+| Name              | Status      | Description                                          |
+| ----------------- | ----------- | ---------------------------------------------------- |
+| MS Teams          | Working     |
+| MS Store          | Working     |
+| MS Office         | Working     | To block, block all `*.officeapps.live.com`          |
+| MS Career         | Not working | To unblock, unblock `js.monitor.azure.com`           |
+| Apple App Store   | Working     | To block, block all `*.apple.com`, `*.apple-cdn.com` |
+| Google Play Store | Not working | To unblock, unblock `play.google.com`                |
+| Google Docs       | Working     |
+| YouTube           | Working     | To disable history, block `s.youtube.com`            |
 
 ## License
 

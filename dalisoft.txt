@@ -1,224 +1,359 @@
-# [Adobe]
-0.0.0.0 redhat.tt.omtrdc.net
-
-# [CrispChat]
-0.0.0.0 client.crisp.chat
-0.0.0.0 client.relay.crisp.chat
-0.0.0.0 settings.crisp.chat
-
-# [Sentry]
-0.0.0.0 browser.sentry-cdn.com
-
-# [Yandex]
-0.0.0.0 aflt.market.yandex.ru
-0.0.0.0 aflt.yandex.ru
-0.0.0.0 sentry.iddqd.yandex.net
-0.0.0.0 adfox.yandex.ru
-0.0.0.0 ads.adfox.ru
-0.0.0.0 an.yandex.ru
-
-# [Facebook]
-0.0.0.0 edge-chat.facebook.com
-0.0.0.0 edge-mqtt.facebook.com
-0.0.0.0 instagram.c10r.facebook.com
-0.0.0.0 graph.instagram.com
-0.0.0.0 lookaside.facebook.com
-0.0.0.0 connect.facebook.net
-0.0.0.0 scontent.xx.fbcdn.net
-0.0.0.0 scontent.fakx2-1.fna.fbcdn.net
-0.0.0.0 fbsbx.com
-0.0.0.0 fbcdn.com
-0.0.0.0 platform-lookaside.fbsbx.com
-
-# [Google]
-0.0.0.0 adservice.google.co.uz
-0.0.0.0 adservice.google.com
-0.0.0.0 googleads.g.double.net
-0.0.0.0 static.doubleclick.net
-0.0.0.0 ogs.google.com
-0.0.0.0 csi.gstatic.com
-0.0.0.0 analytics-google.com
-0.0.0.0 device-provisioning.googleapis.com
-0.0.0.0 www-googletagmanager.l.google.com
-0.0.0.0 www.googletagmanager.com
-0.0.0.0 manifest.googlevideo.com
-0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 firebaselogging-pa.googleapis.com
-# This blocks Google Sheets sync
-# 0.0.0.0 clients.l.google.com
-# This may break Auth or Chrome Extensions downloading
-# 0.0.0.0 clients1.google.com
-
-# Essential feature
-# but tracks activity
-# 0.0.0.0 suggestqueries.google.com
-
-# [YouTube]
-# Allow YouTube Studio assets
-# 0.0.0.0 s.ytimg.com
-
-# As this site doesn't uses cookie, we can allow
-# 0.0.0.0 youtube-nocookie.com
-
-# This entry slow downs video-loading
-# 0.0.0.0 r1---sn-01oxu-u5ne.googlevideo.com
-
-# This entry disables YouTube history
-# 0.0.0.0 s.youtube.com
-
-
-# [Microsoft]
-0.0.0.0 msftconnecttest.com
-0.0.0.0 www.msftconnecttest.com
-0.0.0.0 dns.msftncsi.com
-0.0.0.0 settings-win.data.microsoft.com
-0.0.0.0 livetileedge.dsx.mp.microsoft.com
-# This blocks Windows activation
-# 0.0.0.0 client.wns.windows.com
-
-# [GitHub]
-0.0.0.0 collector.githubapp.com
-0.0.0.0 alive.github.com
-
-# [Apple]
-0.0.0.0 metrics.icloud.com
-0.0.0.0 api.smoot.apple.com
-0.0.0.0 weather-analytics-events.apple.com
-0.0.0.0 xp.apple.com
-0.0.0.0 apple-finance.query.yahoo.com
-0.0.0.0 captive.apple.com
-0.0.0.0 supportmetrics.apple.com
-# This blocks iCloud validity check
-# 0.0.0.0 valid.apple.com
-
-# [Trello]
-0.0.0.0 c.trello.com
-
-# [WWW Uzbekistan]
-0.0.0.0 cnt0.www.uz
-
-# [Olx Uzbekistan]
-0.0.0.0 tracking.olx-st.com
-0.0.0.0 bz2.olx.uz
-0.0.0.0 ninja.data.olxcdn.com
-0.0.0.0 laquesis.data.olxcdn.com
-
-# [Yadro Counter]
-0.0.0.0 counter.yadro.ru
-0.0.0.0 counter.yadro.com
-
-# [Mail Group LLC - Russia]
-0.0.0.0 xray.imgsmail.ru
-0.0.0.0 utimg.ru
-
-# [VK]
-0.0.0.0 vktarget.ru
-
-# [Online Casino and Poker services]
-0.0.0.0 robinbob.in
-0.0.0.0 betsponsport.ru
-0.0.0.0 userator.ru
-0.0.0.0 biglion.ru
-
-# [aaXads]
-0.0.0.0 aaxads.com
-
-# [Crashlytics]
-0.0.0.0 settings.crashlytics.com
-
-# [AppsFlyer]
-0.0.0.0 stats.appsflyer.com
-0.0.0.0 statsgoogle.appsflyer.com
-
-# [Ubuntu]
-0.0.0.0 connectivity-check.ubuntu.com
-
-# [AppMeasurement]
-0.0.0.0 app-measurement.com
-0.0.0.0 www.app-measurement.com
-
-# [Akamaized]
-0.0.0.0 ninja.akamaized.net
-
-# [IP Address]
-0.0.0.0 ipaddress.com
-
-# [InterCom]
-0.0.0.0 intercom.com
-0.0.0.0 www.intercom.com
-0.0.0.0 js.intercomcdn.com
-0.0.0.0 api-iam.intercom.io
-0.0.0.0 nexus-websocket-a.intercom.io
-0.0.0.0 widget.intercom.io
-
-# [DuckDuckGo]
-0.0.0.0 improving.duckduckgo.com
-
-# [Spam]
-0.0.0.0 franecki.net
-0.0.0.0 falcon.r.acdnpro.com
-
-# [MMStat]
-0.0.0.0 ru.mmstat.com
-
-# [Unknown Trackers]
-0.0.0.0 rutracker.appspot.com
-0.0.0.0 cdn.advg.agency
-0.0.0.0 cdn.admitad-connect.com
-
-# [Intel]
-0.0.0.0 gameplayapi.intel.com
-
-# [NVidia]
-0.0.0.0 services.gfe.nvidia.com
-
-# [SnigelWeb]
-0.0.0.0 geo-eu.snigelweb.com
-0.0.0.0 cdn.snigelweb.com
-
-# [Eltima]
-0.0.0.0 appstatico.eltima.com
-
-# [LinkOnClick]
-0.0.0.0 linkonclick.com
-0.0.0.0 www.linkonclick.com
-
-# [CrRepo]
-0.0.0.0 crrepo.com
-0.0.0.0 wwww.crrepo.com
-
-# [OmniTagJS]
-0.0.0.0 hb-api.omnitagjs.com
-
-# [SwitchAdHub]
-0.0.0.0 cdn.switchadhub.com
-0.0.0.0 delivery.g.switchadhub.com
-0.0.0.0 delivery.swid.switchadhub.com
-
-# [Lalucherut]
-0.0.0.0 lalucherut.com
-0.0.0.0 s.lalucherut.com
-0.0.0.0 news-fancy.com
-
-# Uncategorized
-0.0.0.0 cdn.trafficbass.com
-0.0.0.0 z.cdn.trafficbass.com
-0.0.0.0 pocketbitsllc.com
-0.0.0.0 hopigrarn.com
-0.0.0.0 cowner.net
-0.0.0.0 fukavertal.pro
-0.0.0.0 ultimedia.com
-0.0.0.0 in.appcenter.ms
-0.0.0.0 data.flurry.com
-0.0.0.0 adsvolume.com
-0.0.0.0 no-thanks.invalid
-0.0.0.0 stat.joxi.ru
-0.0.0.0 update.joxi.ru
-0.0.0.0 router.bitcomet.com
-0.0.0.0 router.utorrent.com
-0.0.0.0 router.bittorrent.com
-# 0.0.0.0 s.w.org # This host enables some icon share
-0.0.0.0 sw-update.obdev.at
-0.0.0.0 version.cyberduck.io
-0.0.0.0 peterborgapps.com
-0.0.0.0 www.peterborgapps.com
+!rule@@||activity.windows.com^
+!rule@@||alfabit.org^
+!rule@@||api.digiseller.ru^
+!rule@@||braze.com^
+!rule@@||browser.pipe.aria.microsoft.com^
+!rule@@||cdn.matomo.cloud^
+!rule@@||continuum.dds.microsoft.com^
+!rule@@||img.imgsmail.ru^
+!rule@@||js.monitor.azure.com^
+!rule@@||login.windows.net^
+!rule@@||settings-win.data.microsoft.com^
+!rule@@||sf.tlu.dl.delivery.mp.microsoft.com^
+!rule@@||stat.radar.imgsmail.ru^
+!rule@@||t.co^
+!rule@@||trk.mail.ru^
+!rule@@||veon-api.digital.medallia.eu^
+!rule@@||videoproc.com^
+!rule||adobe.com^
+!rule||igamecj.com^
+!rule||shop.digiseller.ru^
+!rule||static.hdrezka.ac^
+@@||2ip.ru^
+@@||advcash.com^
+@@||alive.github.com^
+@@||amp-api-edge.apps.apple.com^
+@@||amp-api-search-edge.apps.apple.com^
+@@||api-private.atlassian.com^
+@@||api.atlassian.com^
+@@||app.gitbook.com^
+@@||appleid.cdn-apple.com^
+@@||blog.logrocket.com^
+@@||chart.apis.google.com^
+@@||crt.sectigo.com^
+@@||ct.sendgrid.net^
+@@||edgewise.app^
+@@||emaillinks.soundiiz.com^
+@@||fonts.gstatic.com^
+@@||fstream.binance.com^
+@@||hub.jetbrains.com^
+@@||i.applelife.ru^
+@@||i.instagram.com^
+@@||lgrecommends.lgappstv.com^
+@@||login.microsoftonline.com^
+@@||myscreen.ru^
+@@||nnmstatic.win^
+@@||oca.nflxvideo.net^
+@@||officeapps.live.com^
+@@||organicfruitapps.com^
+@@||outline.community^
+@@||payeer.com^
+@@||piunikaweb.com^
+@@||plex.direct^
+@@||rsload.xyz^
+@@||s.gateway.messenger.live.com^
+@@||s.youtube.com^
+@@||sf-api-token-service.itunes.apple.com^
+@@||smartasset.com^
+@@||sso.passport.yandex.ru^
+@@||st.vk.com^
+@@||trackingshipment.apple.com^
+@@||ut.taobao.com^
+@@||www.notion.so^
+||a.nel.cloudflare.com^
+||aax-us-iad.amazon.com^
+||aaxads.com^
+||activation.gfe.nvidia.com^
+||adfox.yandex.ru^
+||admitad-connect.com^
+||ads.adfox.ru^
+||adservice.google.co.uz^
+||adsvolume.com^
+||advg.agency^
+||ae.nflximg.net^
+||aflt.market.yandex.ru^
+||aflt.yandex.ru^
+||aic-ngfts.lge.com^
+||airlytics-web.airlock.twcmobile.weather.com^
+||alisg-normal-lb.byteoversea.net^
+||an.yandex.ru^
+||analytics-google.com^
+||analytics.krisp.ai^
+||anchor.digitalocean.com^
+||api-iam.intercom.io^
+||api.condenast.io^
+||api.corr.life^
+||api.gfe.nvidia.com^
+||api.ipify.org^
+||api.pinterest.com^
+||api.smoot.apple.com^
+||api.userway.org^
+||api.vanilla.futurecdn.net^
+||api.viqeo.tv^
+||app-telemetry.t7n.de^
+||app.adjust.com^
+||appstatico.eltima.com^
+||assets.adobedtm.com^
+||assets.nvidiagrid.net^
+||assets.pinterest.com^
+||avast.com^
+||az416426.vo.msecnd.net^
+||bar.love.mail.ru^
+||betsponsport.ru^
+||bi.pst.tech^
+||biglion.ru^
+||bitrix.info^
+||browser.sentry-cdn.com^
+||buildable-a41794e8cd5f.intercom-mail.com^
+||bz2.olx.uz^
+||c.apple.com^
+||callibri.ru^
+||ccp.digitaltrends.com^
+||cdn-b.notsy.io^
+||cdn-prod.eu.securiti.ai^
+||cdn.alfasense.net^
+||cdn.levelaccess.net^
+||cdn.livechatinc.com^
+||cdn.parsley.com^
+||cdn.pricespider.com^
+||cdn.servetraff.com^
+||cdn.trafficbass.com^
+||cdn.transifex.com^
+||cdn.viqeo.tv^
+||cdn.walkme.com^
+||cdn1.affirm.com^
+||cdn2.smoot.apple.com^
+||cdpbeacon.lgtvcommon.com^
+||cdpsvc.lgtvcommon.com^
+||cella.home.hedbor.org^
+||click.txn-email.account.sony.com^
+||cnt0.www.uz^
+||codepush.appcenter.ms^
+||codepush.teams.microsoft.com^
+||connect.facebook.net^
+||connectivity-check.ubuntu.com^
+||consent.truste.com^
+||constellationv2.network-n.com^
+||corel-vector.intercom-mail.com^
+||cowner.net^
+||crisp.chat^
+||crrepo.com^
+||csi.gstatic.com^
+||cx.atdmt.com^
+||d2bqow4fb67vs2.cloudfront.net^
+||d2wy8f7a9ursnm.cloudfront.net^
+||d2xerlamkztbb1.cloudfront.net^
+||daf.xp.apple.com^
+||daisy.ubuntu.com^
+||dbdm-events.mybluemix.net^
+||dc.glbtls.t.co^
+||dc.services.visualstudio.com^
+||deff.nelreports.net^
+||device-provisioning.googleapis.com^
+||diagnostics.redditmedia.com^
+||dm16-alisg.byteoversea.com^
+||dns.msftncsi.com^
+||download.db-ip.com^
+||dtmg-privacy.my.onetrust.com^
+||ebay.com^
+||ecx.images-amazon.com^
+||eds.browserstack.com^
+||email-images.mindbox.ru^
+||embed.typeform.com^
+||emupdate.avcdn.net^
+||errors.figma.com^
+||events.api.secureserver.net^
+||events.gfe.nvidia.com^
+||factpic.ru^
+||falcon.r.acdnpro.com^
+||fast.trychameleon.com^
+||fbcdn.com^
+||fbsbx.com^
+||feedbackws.icloud.com^
+||firebasedynamiclinks.googleapis.com^
+||firebaseinstallations.googleapis.com^
+||flow.1passwordservices.com^
+||fresnel.vimeocdn.com^
+||fukavertal.pro^
+||futurepreneurhub.com^
+||gameplayapi.intel.com^
+||gateway.facebook.com^
+||gecko-va.tiktokv.com^
+||geller-pa.googleapis.com^
+||geniuslinkcdn.com^
+||get.codecov.io^
+||gethatch.com^
+||global.albtls.t.co^
+||global.glbtls.t.co^
+||googletagmanager.com^
+||graph.facebook.com^
+||homeprv.lgtvcommon.com^
+||hooks.slack.com^
+||hopigrarn.com^
+||hypersexs.online^
+||i.pinimg.com^
+||images.github.media^
+||imasdk.googleapis.com^
+||improving.duckduckgo.com^
+||info.cloudflare.com^
+||info.nvidia.com^
+||info.nvidianews.com^
+||internalcheck.apple.com^
+||ios.prod.http1.netflix.com^
+||ipaddress.com^
+||ipapi.co^
+||ipinfo.io^
+||ipv6.leechers-paradise.org^
+||ixsystems.widget.insent.ai^
+||js.intercomcdn.com^
+||kas-labs.com^
+||kaspersky-labs.com^
+||kenjo.eu2app.churnzero.net^
+||kumo.network-n.com^
+||lalucherut.com^
+||laquesis.data.olxcdn.com^
+||likemore-go.imgsmail.ru^
+||linkonclick.com^
+||livetileedge.dsx.mp.microsoft.com^
+||location.bloomberg.com^
+||log16-normal-alisg.tiktokv.com.edgekey.net^
+||log16-normal-alisg.tiktokv.com^
+||logo.clearbit.com^
+||lookaside.facebook.com^
+||m.facebook.com^
+||m.lenta.ru^
+||malwarebytes.org^
+||marketing.figma.com^
+||mask-api.fe.apple-dns.net^
+||mask-api.icloud.com^
+||mask-h2.icloud.com^
+||mask-t.apple-dns.net^
+||mask.apple-dns.net^
+||mask.icloud.com^
+||matomo.korohub.xyz^
+||microsoftedgewelcome.microsoft.com^
+||minerva.ifixit.com^
+||miro-alternate.app.link^
+||miro.app.link^
+||mobile-collector.newrelic.com.cdn.cloudflare.net^
+||msedgeextensions.sb.tlu.dl.delivery.mp.microsoft.com^
+||msftconnecttest.com^
+||namenodsic.live^
+||news-fancy.com^
+||nexus-websocket-a.intercom.io^
+||ngfts.lge.com^
+||ninja.akamaized.net^
+||ninja.data.olxcdn.com^
+||no-thanks.invalid^
+||nogravity.fun^
+||ntp.msn.com^
+||nudge.lgtvcommon.com^
+||onsite2.researchintel.com^
+||opengraph.githubassets.com^
+||page.hasura.io^
+||peoplegraph.firstpartyapps.oaspapps.com^
+||pictures.dealer.com^
+||pinterest.com^
+||platform.linkedin.com^
+||plausible.io^
+||play.google.com^
+||play.kakao.com^
+||pocketbitsllc.com^
+||polldaddy.com^
+||portal.fb.com^
+||privacyportal.onetrust.com^
+||promotions.newegg.com^
+||public.popcorn-tracker.org^
+||q.stripe.com^
+||radarsubmissions.apple.com^
+||rdl.lgtvcommon.com^
+||rdx2.lgtvsdp.com^
+||recommend.lgtvcommon.com^
+||redirect.prod.experiment.routing.cloudfront.aws.a2z.com^
+||robinbob.in^
+||rollout.ada.support^
+||rutracker.appspot.com^
+||s-passets.pinimg.com^
+||s.w-x.co^
+||sc78299514llms1.cobrowse.oraclecloud.com^
+||sdk.privacy-center.org^
+||sealserver.trustwave.com^
+||search-api.fie.future.net.uk^
+||self-events-data.trafficmanager.net^
+||sentry.postmanlabs.com^
+||server.recotap.com^
+||service.lgtvcommon.com^
+||services.gfe.nvidia.com^
+||services.sheerid.com^
+||settings.crashlytics.com^
+||sfdr.co^
+||sgplog.ezvizlife.com^
+||sgplog.hik-connect.com^
+||snowplow.digitaltrends.com^
+||ss3.4sqi.net^
+||startimg.ru^
+||stat.joxi.ru^
+||static-mon.yandex.net^
+||static.cloud.coveo.com^
+||static.mailerlite.com^
+||static.scarf.sh^
+||staticw2.yotpo.com^
+||stats.gc.apple.com^
+||stats.gcp.smartmailcloud.com^
+||status.geotrust.com^
+||storage.elfsight.com^
+||sublimehq.com^
+||syndication.twitter.com^
+||t.paypal.com^
+||teams-events-data.trafficmanager.net^
+||techsparx.com^
+||tpc.googlesyndication.com^
+||tracker.dler.org^
+||tracker.leechers-paradise.org^
+||tracking.onap.io^
+||tracking.ott.yandex.net^
+||tu-berlin.de^
+||u-stream.in^
+||ultimedia.com^
+||universal.wgplayer.com^
+||uplus.co.kr^
+||urs.cnet.com^
+||us-central1-callpower-repair-1548316784218.cloudfunctions.net^
+||us.lgtvsdp.com^
+||usage.readdle.com^
+||use-application-dns.net^
+||use-application-dns.net^
+||use-application-dns.net^
+||userator.ru^
+||utimg.ru^
+||vcsa.vmware.com^
+||video-edge-3c0fb7.pdx01.abs.hls.ttvnw.net^
+||videosvc.ezoic.com^
+||vktarget.ru^
+||weather-analytics-events.apple.com^
+||web.docker.com^
+||widget.intercom.io^
+||widget.trustpilot.com^
+||widgets.getpocket.com^
+||widgets.hawk-assets.co.uk^
+||widgets.membership.s-msft.com^
+||ws.zoominfo.com^
+||wvclrl.com^
+||ww1.kinogo.co^
+||www-googletagmanager.l.google.com^
+||www.bbthat.com^
+||www.daemon-tools.cc^
+||www.dolby.com^
+||www.facebook.com^
+||www.honcode.ch^
+||www.intercom.com^
+||www.pinterest.co.uk^
+||www.pinterest.com^
+||www.smart-soft.ru^
+||xp.apple.com^
+||xray.imgsmail.ru^
+||xxid.atl-paas.net^
+||yabs.yandex.ru^
+||yadro.com^
+||ysa-static.passport.yandex.ru^
+||zoom-privacy.my.onetrust.com^
