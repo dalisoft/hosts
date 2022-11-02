@@ -8,7 +8,8 @@
 
 You can import rule into
 
-- AdGuard
+- AdGuard (app)
+- AdGuard DNS
 - AdBlock
 - uBlock Origin
 
