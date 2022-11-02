@@ -1,8 +1,16 @@
 # hosts
 
-<p align='center'><b>author-maintained balanced between privacy, safety and services functionality</b></p>
+<p align='center'><b>author-maintained balanced between privacy, safety and services functionality AdBlock/AdGuard rules</b></p>
 
 <p align='center'><a href='https://checkadblock.ru'>Check DNS ad-block</a></p>
+
+## Usage
+
+You can import rule into
+
+- AdGuard
+- AdBlock
+- uBlock Origin
 
 ## Requires lists
 
